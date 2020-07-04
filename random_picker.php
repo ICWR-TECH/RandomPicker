@@ -1,5 +1,5 @@
 <?php
-// error_reporting(0);
+error_reporting(0);
 function awok($awal,$akhir){
 	$range=range($awal,$akhir);
 	return $range[rand(0,count($range)-1)];
